@@ -192,7 +192,7 @@ def Input_P_Q_Fig_2a_Hu_SM_2001__1(P,HP,Q,HQ,R,HR):
 
 
     
-def Calculation_U_Open_Uniform(p,n,m,U):
+def Calculation_U_Open_Uniform(p, n, m, U):
     #print("type(U)=",type(U))
     #print("np.shape(U)=",np.shape(U))
     #print("np.size(U)=",np.size(U))
@@ -200,16 +200,15 @@ def Calculation_U_Open_Uniform(p,n,m,U):
     #U=[0., 1., 2., 3., 4., 5., 6.]
     #print("*2* p=",p," m=",m," n=",n," U=",U)
     
-    for i in range(0,p+1):    
-        U[i]=0
-    for i in range(p+1,m-p+1):
-        U[i]=U[i-1]+1
-    for i in range(m-p+1,m+1):
-        U[i]=U[m-p]
+    for i in range(0, p+1):
+        U[i] = 0
+    for i in range(p+1, m-p+1):
+        U[i] = U[i-1]+1
+    for i in range(m-p+1, m+1):
+        U[i] = U[m-p]
     
     #print("*3* p=",p," m=",m," n=",n," U=",U)
 
-    return;
 
 
 

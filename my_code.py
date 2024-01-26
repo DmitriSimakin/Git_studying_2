@@ -133,3 +133,4 @@ Plots_1.plot_Trace_Lines_2_for_Mergin_a(P[:, 0], P[:, 1],
                                         y_min, y_max, x_min, x_max,
                                         Title, labels_legend1, labels_legend2,
                                         labels_legend3, labels_legend4)
+
