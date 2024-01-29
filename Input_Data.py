@@ -188,10 +188,6 @@ def Input_P_Q_Fig_2a_Hu_SM_2001__1(P,HP,Q,HQ,R,HR):
     return;
 
 
-
-
-
-    
 def Calculation_U_Open_Uniform(p, n, m, U):
     #print("type(U)=",type(U))
     #print("np.shape(U)=",np.shape(U))
