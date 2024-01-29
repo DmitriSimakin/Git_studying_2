@@ -891,30 +891,11 @@ def plot_Trace_Lines_3_for_Mergin_1_plus_4_Points (X1,Y1,X2,Y2,X3,Y3,X4,Y4,
 #***********************************************************************************   
 
 
-
-
-
-
-
-
-
-
-
-
-
 #***********************************************************************************
 #***********************************************************************************    
-def plot_Trace_Lines_2_for_Mergin_a (Control_Point1_x, Control_Point1_y, 
-                                     Control_Point2_x, Control_Point2_y,
-                                    
-                                     
-                                     datax1, datay1,
-                                     datax2, datay2, 
-                                    
-                          
-                           y_min, y_max, x_min, x_max,
-                Title, labels_legend1, labels_legend2,
-                labels_legend3, labels_legend4):
+def plot_Trace_Lines_2_for_Mergin_a (Control_Point1_x, Control_Point1_y, Control_Point2_x, Control_Point2_y,
+                                     datax1, datay1, datax2, datay2, y_min, y_max, x_min, x_max,
+                                     Title, labels_legend1, labels_legend2, labels_legend3, labels_legend4):
 
 # Рисует:
 # 1. Контр.Многоугольник
